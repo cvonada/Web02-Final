@@ -1,0 +1,92 @@
+html {
+    font-family: 'Dosis', sans-serif;
+    background-color: white;
+}
+
+/* Title Box */
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+}
+
+#title-contents {
+    text-align: center;
+    border-color: grey;
+    border-radius: 20px;
+    border-style: dashed;
+    max-width: 600px;
+    margin: 30px 50px 20px 50px;
+    padding: 10px;
+}
+
+/* Choose Color Amount */
+#color-amount-containter {
+    display: flex;
+    justify-content: center;
+}
+
+#color-amount-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+/* Palette */
+#color-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 5px 0px;
+}
+
+#color-contents, #yarn-contents {
+    display: flex;
+    justify-content: center;
+}
+
+#colorpicker {
+    margin: 5px 10px 0px 10px;
+}
+
+#yarn-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 10px 10px;
+}
+
+#ball {
+    margin: 10px;
+    width: 50px;
+}
+
+/* Sweater SVG */
+#sweater-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#sweater {
+    width: 80%;
+    max-width: 600px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
