@@ -3,6 +3,10 @@ html {
     background-color: white;
 }
 
+p {
+    margin: 0px;
+}
+
 /* Title Box */
 h1 {
     color: grey;
@@ -16,7 +20,12 @@ h2 {
 }
 
 h3 {
-    margin: 3px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: 0px;
     padding: 0px;
 }
 
@@ -82,9 +91,7 @@ h3 {
 
 /* Palette */
 #color-container, 
-#color-contents,
-#yarn-contents, 
-#yarn-container {
+#color-contents {
     display: flex;
     justify-content: center;
 }
@@ -110,13 +117,13 @@ table {
     border-collapse: collapse;
   }
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
   }
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
   }
 
@@ -126,20 +133,57 @@ table {
     justify-content: center;
 }
 
-/* Sweater SVG */
+/* Sweater Container */
+#yarn-contents {
+    display: flex;
+    justify-content: center;
+}
+
 #sweater-container {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 30px; 
+}
+
+#sweater-contents {
+    display: flex;
+    justify-content: center;
 }
 
 #sweater {
     width: 80%;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 #button-container {
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+#pattern-container {
+    display: flex;
+    justify-content: center;
+}
+
+#pattern {
+    border-color: grey;
+    border-radius: 20px;
+    border-style: dashed;
+    max-width: 700px;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+}
+
+#abbreviations {
+    margin: 0px 0px 0px 20px;
+}
+
+#collar-container {
+    display: flex;
+    justify-content: center;
+}
+
+#collar {
+    width: 400px;
 }
