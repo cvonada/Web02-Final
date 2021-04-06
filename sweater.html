@@ -20,69 +20,173 @@
     <div id="title-container">
         <div id="title-contents">
             <h1>Digital Sweater Pattern Generator</h1>
-            <h2>~</h2>
-            <h3>By Courtney Vonada</h3>
-        </div>
-    </div>    
+            <h2>(Knitted)</h2>
+            <h3>Coded By Courtney Vonada</h3>
 
-    <div id="color-amount-container">
-        <div id="color-amount-contents">
-            <label for="colors">How Many Colors?</label>
-            <select id="color" name="color-choice">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
+            <div id="description">
+                <p>The base pattern is a simple basic pullover,
+                perfect as your everyday sweater. It has a top-down raglan construction,
+                which allows you to try on as you go
+                to check your fit.
+                </p>
+            </div>
         </div>
-    </div>
+    </div>  
 
-    <div id="color-container">
-        <div id="color-contents">
-            <label for="colorpicker"></label>
-            <div id="color1">
-                <input type="color" id="colorpicker" value="#000000">
-            </div> 
-            <div id="color2">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-            <div id="color3">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-            <div id="color4">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-            <div id="color5">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-            <div id="color6">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-            <div id="color7">
-                <input type="color" id="colorpicker" value="#000000">
-            </div> 
-            <div id="color8">
-                <input type="color" id="colorpicker" value="#000000">
-            </div>
-        </div>
-    </div>
+    <div id="all-steps">
+        <div id="step-column">
+            <div id="step-container"> 
+                <div id="step-title">
+                    <h2>Step One:</h2>
+                </div>
 
-    <div id="yarn-container">
-        <div id="yarn-contents">
-            <img id="ball" src="/svg/ball01-svg.svg">
-            <img id="ball" src="/svg/ball02-svg.svg">
-            <img id="ball" src="/svg/ball03-svg.svg">
-            <img id="ball" src="/svg/ball01-svg.svg">
-            <img id="ball" src="/svg/ball02-svg.svg">
-            <img id="ball" src="/svg/ball03-svg.svg">
-            <img id="ball" src="/svg/ball01-svg.svg">
-            <img id="ball" src="/svg/ball02-svg.svg">
-        </div>
-    </div>
+                <div id="step-description">
+                    <p>Choose how many colors you'd like your sweater to
+                        contain, then indicate the colors.
+                    </p>
+                </div>
+
+                <div id="color-amount-container">
+                    <div id="color-amount-contents">
+                        <label for="colors">How Many Colors?</label>
+                        <select id="color" name="color-choice">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="color-container">
+                    <div id="color-contents">
+                        <label for="colorpicker"></label>
+                        <div id="color1">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div> 
+                        <div id="color2">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                        <div id="color3">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                        <div id="color4">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                        <div id="color5">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                        <div id="color6">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                        <div id="color7">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div> 
+                        <div id="color8">
+                            <input type="color" id="colorpicker" value="#000000">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div id="yarn-container">
+                    <div id="yarn-contents">
+                        <img id="ball" src="/svg/ball01-svg.svg">
+                        <img id="ball" src="/svg/ball02-svg.svg">
+                        <img id="ball" src="/svg/ball03-svg.svg">
+                        <img id="ball" src="/svg/ball01-svg.svg">
+                        <img id="ball" src="/svg/ball02-svg.svg">
+                        <img id="ball" src="/svg/ball03-svg.svg">
+                        <img id="ball" src="/svg/ball01-svg.svg">
+                        <img id="ball" src="/svg/ball02-svg.svg">
+                    </div>
+                </div>
+            </div>     
+
+            <div id='step-container'>
+                
+                    <div id="step-title">
+                        <h2>Step Three:</h2>
+                    </div>
+    
+                    <div id="step-description">
+                        <p>Generate Random Stripe Pattern</p>
+                    
+
+                    <button id="random">Randomize</button>
+                </div>
+            </div>
+        </div>    
+               
+        <div id="step-format">
+            <div id="step-container">
+
+                <div id="step-title">
+                    <h2>Step Two:</h2>
+                </div>
+
+                <div id="step-description">
+                    <p>Choose Sweater Size
+                    </p>
+                </div>
+
+                <div id="size-container">
+                    <div id="size-contents">
+                        <label for="size"></label>
+                        <select id="size" name="size-choice">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="1X">1X</option>
+                            <option value="2X">2X</option>
+                            <option value="3X">3X</option>
+                        </select>
+                    </div>
+                    <div id="size-chart">
+                        <h3>Sizing Chart Reference Table:</h3>
+                        <table>
+                            <tr>
+                                <th>Size</th>
+                                <th>Bust</th>
+                            </tr>
+                            <tr>
+                                <td>XS</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>S</td>
+                                <td>33</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>37</td>
+                            </tr>
+                            <tr>
+                                <td>L</td>
+                                <td>41</td>
+                            </tr>
+                            <tr>
+                                <td>1X</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>2X</td>
+                                <td>49</td>
+                            </tr>
+                            <tr>
+                                <td>3X</td>
+                                <td>53</td>
+                            </tr>
+                        </table>*Inches
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
 
     <div id='sweater-container'><img id="sweater" src="/svg/sweater-svg.svg"></div>
 
@@ -93,12 +197,13 @@
         </div>
     </div>
 
-<div id='pattern'>Brick
-    Brick is a simple, basic pullover
-    perfect as your everyday sweater.
-    It has a top-down raglan construction,
-    which allows you to try on as you go
-    to check your fit.
+<div id='pattern'>
+    <div id="pattern-title">
+        <h2>Striped Sweater Pattern</h2>
+        <h3>Original Pattern by <a href="https://www.ravelry.com/designers/clare-lee">Clare Lee</a></h3>
+    </div>
+
+    <div id="sweater-size-container"></div>
     SIZES
     XS, [S, M, L, 1X, 2X, 3X]
     Chest: approx. 29, [33, 37, 41, 45, 49, 53]

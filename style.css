@@ -5,6 +5,7 @@ html {
 
 /* Title Box */
 h1 {
+    color: grey;
     margin: 0px;
     padding: 0px;
 }
@@ -15,7 +16,7 @@ h2 {
 }
 
 h3 {
-    margin: 0px;
+    margin: 3px;
     padding: 0px;
 }
 
@@ -26,12 +27,45 @@ h3 {
 
 #title-contents {
     text-align: center;
+    max-width: 600px;
+    margin: 30px 50px 10px 50px;
+    padding: 10px;
+}
+
+/* Steps */
+#all-steps {
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+}
+
+#step-format {
+    display: flex;
+    flex-direction: row;
+}
+
+#step-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#step-container { 
     border-color: grey;
     border-radius: 20px;
     border-style: dashed;
-    max-width: 600px;
-    margin: 30px 50px 20px 50px;
+    max-width: 700px;
+    margin: 10px 10px 10px 20px;
     padding: 10px;
+}
+
+#step-title {
+    text-align: left;
+    color: grey;
+}
+
+#step-description {
+    text-align: center;
+    color: black;
 }
 
 /* Choose Color Amount */
@@ -47,13 +81,10 @@ h3 {
 }
 
 /* Palette */
-#color-container {
-    display: flex;
-    justify-content: center;
-    margin: 0px 0px 5px 0px;
-}
-
-#color-contents, #yarn-contents {
+#color-container, 
+#color-contents,
+#yarn-contents, 
+#yarn-container {
     display: flex;
     justify-content: center;
 }
@@ -62,15 +93,37 @@ h3 {
     margin: 5px 10px 0px 10px;
 }
 
-#yarn-container {
-    display: flex;
-    justify-content: center;
-    margin: 0px 10px 10px 10px;
-}
-
 #ball {
     margin: 10px;
     width: 50px;
+}
+
+/* Size */
+#size-contents {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* Randomize Stripe Pattern */
+#generate-button-container {
+    display: flex;
+    justify-content: center;
 }
 
 /* Sweater SVG */
