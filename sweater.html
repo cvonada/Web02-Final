@@ -4,7 +4,11 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
+    <!--Web Tab-->
+		<link rel="icon" href="">
+		<title>Striped Sweater</title>
+
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css"/>
 
@@ -16,7 +20,7 @@
 </head>
 
 <body>
-    <!-- delete below -->
+    <!-- Background Assets -->
    <div id="white-format">
        <div id="whiteBG"></div>
    </div>
@@ -26,7 +30,7 @@
         </div>
       </div>
 
-<!-- Delete above -->
+    <!-- Main Content -->
     <div id="title-container">
         <div id="title-contents">
             <h1>Digital Sweater Pattern Generator</h1>
@@ -60,7 +64,7 @@
                     <div id="color-amount-container">
                         <div id="color-amount-contents">
                             <label for="colors">How Many Colors?</label>
-                            <select id="color-choice" name="color-choice">
+                            <select id="color" name="color-choice">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -75,9 +79,31 @@
 
                     <div id="color-container">
                         <div id="color-contents">
+                            <label for="colorpicker"></label>
                             <div id="color1">
                                 <input class='colorpicker' type="color" id="colorpicker" value="#000000">
                             </div> 
+                            <div id="color2">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
+                            <div id="color3">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
+                            <div id="color4">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
+                            <div id="color5">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
+                            <div id="color6">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
+                            <div id="color7">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div> 
+                            <div id="color8">
+                                <input class='colorpicker' type="color" id="colorpicker" value="#000000">
+                            </div>
                         </div>
                     </div>
                 </div>     
@@ -149,7 +175,7 @@
         
         <div id="yarn-container">
             <div id="yarn-contents">
-                <svg class="ball ball1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
                     <defs>
                         <g id="Layer4_0_FILL">
                             <path stroke="none" d="
@@ -180,10 +206,10 @@
                         <use xlink:href="#Layer4_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer6_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 450.05 466.45
                             Q 454.25 462.55 458.4 458.4 486.45 430.4 504.55 398.3 480 310.55 410.75 254.7 452.7 345.5 450.05 466.45
                             M 116.65 490.5
@@ -206,10 +232,10 @@
                         <use xlink:href="#Layer6_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball3" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id='ball' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer5_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 2.5 230.1
                             Q 31.85 263 72.3 284.8 75.45 247 83.15 211.45 60.15 200.45 21.15 162 7.2 194.15 2.5 230.1
                             M 1.2 242
@@ -249,10 +275,10 @@
                         <use xlink:href="#Layer5_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball4" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer6_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 450.05 466.45
                             Q 454.25 462.55 458.4 458.4 486.45 430.4 504.55 398.3 480 310.55 410.75 254.7 452.7 345.5 450.05 466.45
                             M 116.65 490.5
@@ -275,7 +301,7 @@
                         <use xlink:href="#Layer6_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball5" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
                     <defs>
                         <g id="Layer4_0_FILL">
                             <path stroke="none" d="
@@ -306,10 +332,10 @@
                         <use xlink:href="#Layer4_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball6" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer6_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 450.05 466.45
                             Q 454.25 462.55 458.4 458.4 486.45 430.4 504.55 398.3 480 310.55 410.75 254.7 452.7 345.5 450.05 466.45
                             M 116.65 490.5
@@ -332,10 +358,10 @@
                         <use xlink:href="#Layer6_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball7" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id='ball' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer5_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 2.5 230.1
                             Q 31.85 263 72.3 284.8 75.45 247 83.15 211.45 60.15 200.45 21.15 162 7.2 194.15 2.5 230.1
                             M 1.2 242
@@ -375,10 +401,10 @@
                         <use xlink:href="#Layer5_0_FILL"/>
                     </g>
                 </svg>
-                <svg class="ball ball8" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                     <defs>
                         <g id="Layer6_0_FILL">
-                            <path stroke="none" d="
+                            <path fill="#000000" stroke="none" d="
                             M 450.05 466.45
                             Q 454.25 462.55 458.4 458.4 486.45 430.4 504.55 398.3 480 310.55 410.75 254.7 452.7 345.5 450.05 466.45
                             M 116.65 490.5
@@ -439,7 +465,7 @@
                 <h4>Colors:</h4>     
                 <div id="yarn-container">
                     <div id="yarn-contents">
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
                             <defs>
                                 <g id="Layer4_0_FILL">
                                     <path stroke="none" d="
@@ -470,7 +496,7 @@
                                 <use xlink:href="#Layer4_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer6_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -496,7 +522,7 @@
                                 <use xlink:href="#Layer6_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id='ball' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer5_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -539,7 +565,7 @@
                                 <use xlink:href="#Layer5_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer6_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -565,7 +591,7 @@
                                 <use xlink:href="#Layer6_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 561 561">
                             <defs>
                                 <g id="Layer4_0_FILL">
                                     <path stroke="none" d="
@@ -596,7 +622,7 @@
                                 <use xlink:href="#Layer4_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer6_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -622,7 +648,7 @@
                                 <use xlink:href="#Layer6_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id='ball' xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer5_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -665,7 +691,7 @@
                                 <use xlink:href="#Layer5_0_FILL"/>
                             </g>
                         </svg>
-                        <svg class="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
+                        <svg id="ball" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 537 537">
                             <defs>
                                 <g id="Layer6_0_FILL">
                                     <path fill="#000000" stroke="none" d="
@@ -822,10 +848,6 @@
         </div>
     </div>
 
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
     <script src="script.js"></script>
     
 </body> 
