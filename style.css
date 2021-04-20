@@ -164,7 +164,7 @@ tr:nth-child(even) {
     border-color: grey;
     border-radius: 20px;
     border-style: dashed;
-    max-width: 700px;
+    max-width: 555px;
     margin: 10px 10px 10px 20px;
     padding: 10px;
 }
@@ -181,3 +181,34 @@ tr:nth-child(even) {
 #collar {
     width: 400px;
 }
+
+/* Background */
+#gradient {
+    position: fixed;
+    background-image: linear-gradient(90deg, rgba(0,190,190,1) 0%, rgba(0,190,190,1) 100%);
+    margin: -10px;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+  }
+
+  #white-format {
+      display: flex;
+      justify-content: center;
+    }
+
+  #whiteBG {
+      position: fixed;
+      margin: -10px;
+      height: 100vh;
+      width: 700px;
+      background-color: white;
+      z-index: -50;
+  }
+
+  #stripe {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(0,155,155,0.35) 25%, transparent 25%, transparent 50%, rgba(0,155,155,0.35) 50%, rgba(0,155,155,0.35) 75%, transparent 75%, transparent 100%), linear-gradient(-45deg, rgba(0,155,155,0.35) 25%, transparent 25%, transparent 50%, rgba(0,155,155,0.35) 50%, rgba(0,155,155,0.35) 75%, transparent 75%, transparent 100%);
+    background-size: 5vw 5vw;
+  }
