@@ -42,15 +42,9 @@ h4 {
 }
 
 /* Steps */
-#all-steps {
-    display: flex;
-    justify-content: center;
-    max-height: 500px;
-}
-
 #step-format {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 #step-column {
