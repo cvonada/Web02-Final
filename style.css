@@ -99,6 +99,7 @@ h4 {
     width: 50px;
 }
 
+
 /* Size */
 #size-contents {
     display: flex;
@@ -125,12 +126,15 @@ tr:nth-child(even) {
 #generate-button-container {
     display: flex;
     justify-content: center;
+    margin: 10px; 
 }
 
 /* Sweater Container */
 #yarn-contents {
     display: flex;
     justify-content: center;
+    margin: 30px; 
+    height: 70px;
 }
 
 #sweater-container {
