@@ -136,6 +136,13 @@ tr:nth-child(even) {
     height: 70px;
 }
 
+#yarn-contents2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px; 
+    height: 70px;
+}
+
 #sweater-container {
     display: flex;
     justify-content: center;
