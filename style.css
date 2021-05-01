@@ -132,21 +132,21 @@ tr:nth-child(even) {
 #yarn-contents {
     display: flex;
     justify-content: center;
-    margin: 30px; 
+    margin: 10px 30px 10px 30px; 
     height: 70px;
 }
 
 #yarn-contents2 {
     display: flex;
     justify-content: center;
-    margin: 30px; 
+    margin: 5px 30px 5px 30px; 
     height: 70px;
 }
 
 #sweater-container {
     display: flex;
     justify-content: center;
-    margin: 30px; 
+    margin: 0px 30px 0px 30px; 
 }
 
 #sweater-contents {
