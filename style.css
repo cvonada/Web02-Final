@@ -171,6 +171,7 @@ tr:nth-child(even) {
 }
 
 #pattern {
+    display: none;
     border-color: grey;
     border-radius: 20px;
     border-style: dashed;

@@ -95,7 +95,9 @@ const buildYarnBall = () => {
     yarnContainer2.innerHTML = yarnBallArray.join('');
 }
 
-
+function showPattern() {
+    document.getElementById("pattern").style.display = "block";
+  }
 
 
 
