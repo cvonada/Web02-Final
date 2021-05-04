@@ -103,31 +103,27 @@ function showPattern() {
 
 // Step 2 display elemnt by ID
 
-document.getElementById("size").addEventListener('change',function(e) {
+document.getElementById("size").addEventListener('change', function(e) {
     adjustAllSizes(e.target.value);
 })
 
 const adjustAllSizes = (selectedSize) => {
-    const allSizes = ['xs', 's', 'm', 'l', '1x', '2x', '3x'];
+    const allSizes = ['xs', 's', 'm', 'l', 'onex', 'twox', 'threex'];
     allSizes.map((size) => {
-        const htmlElements = document.querySelectorAll('.' + selectedSize.toLowerCase());
-        console.log(htmlElements);
-        // console.log(size, selectedSize.toLowerCase(), size === selectedSize.toLowerCase());
+        const htmlElements = document.querySelectorAll('.' + size.toLowerCase());
         if (size == selectedSize.toLowerCase()) {
-            console.log(size, 'true');
-            htmlElements.forEach(el => el.style.display = "block");
-            htmlElements.forEach(el => console.log(el.style.display));
+            htmlElements.forEach(el => el.style.display = "inline");
             return;
         } else {
             htmlElements.forEach(el => el.style.display = "none");
             return;
         }
-        console.log(size, 'false');
-        
     })
 }
 
-
+$(document).ready(function () {
+    $('#random').click()
+})
 
 
 
